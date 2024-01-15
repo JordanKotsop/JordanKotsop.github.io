@@ -1,20 +1,95 @@
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
+<html>
+<head>
+    <style>
+        /* Define the colors */
+        :root {
+            --indigo: #4b0082;
+            --purple: #800080;
+            --light-purple: #e0b0ff;
+            --yellow: #ffff00;
+        }
 
-Using two asterisks **this text is bold**.  
-Two underscores __work as well__.  
-Let's make it *italic now*.  
-You guessed it, _one underscore is also enough_.  
-Can we combine **_both of that_?** Absolutely.
-What if I want to ~~strikethrough~~?
+        /* Set the font and background */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--light-purple);
+        }
 
-> This is a blockquote.
-> Want to write on a new line with space between?
->
-> > And nested? No problem at all.
-> >
-> > > PS. you can **style** your text _as you want_.
+        /* Style the header */
+        h1 {
+            color: var(--indigo);
+            text-align: center;
+        }
+
+        /* Style the navigation bar */
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: var(--purple);
+        }
+
+        /* Style the links */
+        a {
+            color: var(--yellow);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Style the main content */
+        main {
+            margin: 20px;
+        }
+
+        /* Style the summary section */
+        .summary {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-gap: 10px;
+        }
+
+        /* Style the image */
+        .summary img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        /* Style the text */
+        .summary p {
+            color: var(--indigo);
+            font-size: 18px;
+        }
+
+        /* Style the footer */
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--purple);
+            color: var(--yellow);
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Jordan Kotsopoulos</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <main>
+        <div class="summary">
+            <img src="jordan.jpg" alt="Jordan Kotsopoulos">
+            <p>
+                Jordan Kotsopoulos is a strategic consultant and entrepreneur in the web3, AI and sports & entertainment industries. He has over 10 years of experience in helping clients achieve their goals and transform their businesses with cutting-edge technologies and innovative solutions. He is also the founder and CEO of Koto Labs, a web3 development studio that creates decentralized applications and platforms for various sectors and use cases. Jordan is passionate about the future of the internet and the potential of web3 to empower people and create a more open, fair and transparent world.
+            </p>
+        </div>
+    </main>
+    <footer>
+        &copy; 2024 Jordan Kotsopoulos. All rights reserved.
+    </footer>
+</body>
+</html>
