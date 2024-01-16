@@ -27,7 +27,32 @@
             justify-content: space-around;
             align-items: center;
             background-color: var(--purple);
-        }
+
+            <style>
+              /* Define the style of the nav bar */
+              .nav {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                background-color: #333;
+                height: 50px;
+              }
+            
+              /* Define the style of the nav links */
+              .nav-link {
+                color: white;
+                text-decoration: none;
+                font-size: 20px;
+                transition: transform 0.3s;
+              }
+            
+              /* Define the hover effect of the nav links */
+              .nav-link:hover {
+                transform: scale(1.2);
+                color: yellow;
+              }
+            </style>
+                    }
 
         /* Style the links */
         a {
@@ -81,6 +106,20 @@
       <a class="nav-link" href="#services">Services</a>
       <a class="nav-link" href="#contact">Contact Me</a>
     </nav>
+
+
+
+<nav class="nav">
+  <!-- Create the nav links -->
+  <a class="nav-link" href="#about">About Me</a>
+  <a class="nav-link" href="#projects">My Projects</a>
+  <a class="nav-link" href="#services">Services</a>
+  <a class="nav-link" href="#contact">Contact Me</a>
+</nav>
+
+
+
+    
     <main>
         <div class="summary">
             <img src="jordan.jpg" alt="Jordan Kotsopoulos">
