@@ -74,11 +74,12 @@
 </head>
 <body>
     <h1>Jordan Kotsopoulos</h1>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
+   <nav class="nav">
+      <!-- Create the nav links -->
+      <a class="nav-link" href="#about">About Me</a>
+      <a class="nav-link" href="#projects">My Projects</a>
+      <a class="nav-link" href="#services">Services</a>
+      <a class="nav-link" href="#contact">Contact Me</a>
     </nav>
     <main>
         <div class="summary">
